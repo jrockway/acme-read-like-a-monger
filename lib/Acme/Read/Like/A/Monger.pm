@@ -11,6 +11,7 @@ $cba{$k};print"\";\}\n";}print<<'BEGIN'; # Jonathan Rockway :)
 BEGIN {@INC=(sub{print eval"@{[join '::', split/\W/,$_[1]]}";
 open*DATA,"<$0";*DATA});}
 BEGIN
+$VERSION = '0.01';
 __END__
 
 =head1 NAME

@@ -9,8 +9,9 @@ WriteMakefile(
     ABSTRACT_FROM       => 'lib/Acme/Read/Like/A/Monger.pm',
     PL_FILES            => {},
     PREREQ_PM => {
-        'Test::More' => 0,
-    },
+		  'Text::Sentence' => 0,
+		  'Test::More' => 0,
+		 },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Acme-Read-Like-A-Monger-*' },
 );
