@@ -1,0 +1,7 @@
+META.yml
+Makefile
+Acme-Read-Like-A-Monger-*
+blib
+inc
+pm_to_blib
+cover_db
